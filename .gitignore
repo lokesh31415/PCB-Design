@@ -1,0 +1,81 @@
+# KiCad files to ignore
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# KiCad backup files
+*-backups/
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+
+# KiCad lock files
+*.lck
+~*.kicad_pcb.lck
+~*.kicad_sch.lck
+
+# KiCad cache and temporary files
+fp-info-cache
+sym-lib-table
+*.net
+*.dsn
+*.ses
+*.pro.user
+
+# 3D model cache
+*.3dshapes
+
+# Gerber and drill files (uncomment if you don't want to track them)
+# *.gbr
+# *.gbl
+# *.gbo
+# *.gbp
+# *.gbs
+# *.gko
+# *.gtl
+# *.gto
+# *.gtp
+# *.gts
+# *.drl
+# *.xln
+
+# Bill of Materials
+# *.csv
+# *.xml
+
+# Pick and place files
+# *.pos
+
+# Schematic PDF exports (uncomment if you don't want to track them)
+# *.pdf
+
+# Archives and compressed files
+*.zip
+*.rar
+*.7z
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# OS generated files
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Python cache (if using KiCad scripting)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Log files
+*.log
